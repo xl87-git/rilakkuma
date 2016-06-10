@@ -1,0 +1,125 @@
+
+.head{
+	position: absolute;
+	width: 270px;
+	height: 210px;
+	background-color: #C68310;
+	top: 100px;
+	left: 100px;
+	border-top-left-radius:55% 55%;
+	border-top-right-radius:55% 55%;
+	border-bottom-left-radius:35% 35%;
+	border-bottom-right-radius:35%;
+	border: 8px solid #6B4730;
+}
+
+.left_ear{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #C68310;
+	border: 8px solid #6B4730;
+	top: -45px;
+	left: -30px;
+	border-radius: 50%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.right_ear{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #C68310;
+	border: 8px solid #6B4730;
+	top: -45px;
+	left: 190px;
+	border-radius: 50%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.ear_inner{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 35px;
+	border: 8px solid #6B4730;
+	background-color: #FDD100;
+	border-radius: 50%;
+}
+
+.left_ear .ear_inner{
+	left: -15px;	
+}
+
+.right_ear .ear_inner{	
+	right: -15px;	
+}
+
+
+.left_eye{
+	position: absolute;
+	top: 120px;
+	left:55px;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	background-color: #6B4730;
+}
+.right_eye{
+	position: absolute;
+	top: 120px;
+	right:54px;
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	background-color: #6B4730;
+}
+
+.mouth{
+	position: absolute;
+	top: 130px;
+	left: 98px;
+	width: 80px;
+	height: 60px;
+	border-top-left-radius:55% 65%;
+	border-top-right-radius:55% 65%;
+	border-bottom-left-radius:45% 55%;
+	border-bottom-right-radius:45% 55%;
+	background-color: #fff;
+}
+
+.mouth_circle{
+	position: absolute;
+	top: 10px;
+	left: 28px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #6B4730;
+}
+
+.mouth_corner_left{
+	position: absolute;
+	top: 25px;
+	left: 27px;
+	width: 7px;
+	height: 25px;
+	/*border-radius: 50%;*/
+	border-radius: 0px 0px 25px 10px;
+	background-color: #6B4730;
+	transform:rotate(25deg);
+}
+
+.mouth_corner_right{
+	position: absolute;
+	top: 25px;
+	left: 44px;
+	width: 7px;
+	height: 25px;
+	/*border-radius: 50%;*/
+	border-radius: 0px 0px 10px 25px;
+	background-color: #6B4730;
+	transform:rotate(-35deg);
+}
